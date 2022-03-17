@@ -1,5 +1,5 @@
 # eco-commerce  
-Projeto frontend referente a uma Açaiteria, implementado com ajuda do framework angular, serve apenas para treinamento na utilização desse framework.  
+Projeto frontend referente a ecommercede pequenas plantas raras, implementado com ajuda do framework angular, serve apenas para treinamento na utilização desse framework.  
 ## Designer meia boca disponivel em:
 [Designer app](https://www.figma.com/file/ZxnXKwOZNtJlK9F2SbzwbP/venda_plantas?node-id=0%3A1)  
 

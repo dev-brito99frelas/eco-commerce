@@ -1,9 +1,11 @@
 <div class="conteudo">
   <section>
-    <form action="">
-      <input type="search">
-      <span class="material-icons">search</span>
-    </form>
+    <div class="form">
+      <form>
+        <input type="search" [ngClass]="{'ativo':isOculto,'oculto':isOculto}">
+      </form>
+      <button id="buttonsearch" (click)="mudarestado()"><span class="material-icons">search</span></button>
+    </div>
 
     <h2>Grass</h2>
     <h1>Plants</h1>

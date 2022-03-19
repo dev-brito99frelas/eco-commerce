@@ -1,11 +1,38 @@
-form{
-  margin-top: 20px;
-  display: inline-flex;
+.form{
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
   height: 36px;
 }
+form{
+  height: 100%;
+}
 .material-icons{
+  justify-self: flex-end;
   font-size: 36px;
 }
+input{
+  height: inherit;
+  justify-self: flex-start;
+  border-radius:15px;
+  border-color: rgba(0,0,0,0.1);
+  -moz-border-radius:15px; /* Firefox 3.6 and earlier */
+}
+.ativo{
+  visibility: visible;
+}
+.oculto{
+  visibility: hidden;
+}
+#buttonsearch{
+  background: inherit;
+  border: none;
+  text-decoration: none;
+}
+/* fim da section 1 */
+
+
+
 section{
   display: flex;
   flex-direction: column;
@@ -17,9 +44,4 @@ section img{
   margin: 0 auto;
   border-radius: 50%;
 }
-/* .bottom-left{
-  width: 30px;
-  background: red;
-  position: absolute;
-  top: 50%;
-} */
+

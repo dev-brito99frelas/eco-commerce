@@ -8,10 +8,14 @@ import { Component, OnInit } from '@angular/core';
 export class HomeComponent implements OnInit {
   public imgsOne:string = "../../../assets/vaso2.png";
   public imgsTwo:string = "../../../assets/vaso1.png";
+  public isOculto:boolean = true;
 
   constructor() { }
 
   ngOnInit(): void {
+  }
+  public mudarestado():boolean{
+    return this.isOculto=!this.isOculto;
   }
 
 }

@@ -1,0 +1,25 @@
+form{
+  margin-top: 20px;
+  display: inline-flex;
+  height: 36px;
+}
+.material-icons{
+  font-size: 36px;
+}
+section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+section img{
+  width: 150px;
+  height: 200px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+/* .bottom-left{
+  width: 30px;
+  background: red;
+  position: absolute;
+  top: 50%;
+} */

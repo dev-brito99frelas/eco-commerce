@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
+  public imgsOne:string = "../../../assets/vaso2.png";
+  public imgsTwo:string = "../../../assets/vaso1.png";
 
   constructor() { }
 

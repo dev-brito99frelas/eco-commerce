@@ -36,11 +36,11 @@ footer{
     height: 100%;
     padding: 2%;
     display: grid;
-    grid-template-columns: 20vw 80vw;
+    grid-template-columns: 20vw  80vw;
     grid-template-rows: 33% 33% 34%;
     grid-template-areas: "header content"
-                        "header  content"
-                        "header  content"
+                        "header content"
+                        "header content"
     ;
   }
   header {
@@ -61,8 +61,11 @@ footer{
   }
 
   nav{
-    display: none;
-
+    /* display: none; */
+    max-width: 10%;
+    height: 100%;
+    margin: 50% 20px;
+    position: absolute;
   }
   footer{
     display: none;

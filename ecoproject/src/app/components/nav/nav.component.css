@@ -2,4 +2,44 @@
   width: 100%;
   height: 100%;
   background: var(--nav-bg-color);
+  display: flex;
+  flex-direction: row-reverse;
 }
+.nav li {
+  margin:  20px;
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: white;
+  font-size: large;
+}
+@media only screen and (max-width: 320px) {
+  .nav{
+    background: var(--header-bg-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .nav li {
+    margin:  10px;
+    list-style: none;
+    /* writing-mode: vertical-rl;
+    unicode-bidi: bidi-override; */
+    width:1px;
+    word-wrap: break-word;
+    font-family: monospace;
+    white-space: pre-wrap;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+  }
+  a:hover{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+  }
+}
+

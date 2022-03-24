@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   template: `
     <app-layer-home>
       <app-header></app-header>
-      <app-nav></app-nav>
+      <app-nav [arrayNav]="arrayDelinks"></app-nav>
       <router-outlet></router-outlet>
       <app-footer></app-footer>
     </app-layer-home>
@@ -13,4 +13,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ecoproject';
+  public arrayDelinks:Array<string>= ["home","buy","new"];
 }

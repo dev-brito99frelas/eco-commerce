@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">btwocecocomerce</string>
+    <string name="app_name">eco-comerce</string>
+    <string name="app_logotipo">Exibindo logotipo da app</string>
 </resources>

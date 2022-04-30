@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">eco-comerce</string>
     <string name="app_logotipo">Exibindo logotipo da app</string>
+    <string name="app_hint_email">Digite o seu E-mail:</string>
+    <string name="app_hint_senha">Digite a sua password:</string>
+    <string name="app_bt_entrar">Entrar</string>
+    <string name="app_txt_esqueceu">Esqueceu sua senha?</string>
+    <string name="app_txt_cadastre_se">Cadastre-se</string>
 </resources>

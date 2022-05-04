@@ -15,7 +15,7 @@
             android:screenOrientation="userPortrait"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".Activitys.MainActivity"
             android:exported="false"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity

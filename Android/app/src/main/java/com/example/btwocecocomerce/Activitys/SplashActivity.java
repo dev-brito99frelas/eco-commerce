@@ -6,7 +6,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
-import com.example.btwocecocomerce.MainActivity;
 import com.example.btwocecocomerce.R;
 
 public class SplashActivity extends AppCompatActivity implements Runnable{

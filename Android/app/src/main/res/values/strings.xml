@@ -6,4 +6,17 @@
     <string name="app_bt_entrar">Entrar</string>
     <string name="app_txt_esqueceu">Esqueceu sua senha?</string>
     <string name="app_txt_cadastre_se">Cadastre-se</string>
+    <string name="app_txtconteudo_scroll">ScrollView contendo conteudo</string>
+    <string name="app_txtinfoMain_scroll">Buscar por Categorias</string>
+    <string name="app_txtinfoMainMaisVendidos">Mais Vendidos</string>
+    <string name="app_txtinfoMelhorCustoBeneficio">Melhor Custo Beneficio</string>
+    <string name="app_txtinfoNovidades">Novidades</string>
+    <string name="app_bt_pedidos">Pedidos</string>
+    <string name="app_bt_comprados">Comprados</string>
+    <string name="app_bt_carrinho">Carrinho</string>
+
+    <string name="app_bt_popular">Popular</string>
+    <string name="app_bt_novo">Novo</string>
+    <string name="app_bt_preco_baixo">-Preço</string>
+    <string name="app_bt_maisVendido">+Vendido</string>
 </resources>

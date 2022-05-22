@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.btwocecocomerce">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
     <application
         android:allowBackup="true"
@@ -10,10 +9,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Btwocecocomerce">
         <activity
+            android:name=".Activitys.Central"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity
             android:name=".Activitys.LoginActivity"
-            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:exported="false"
             android:screenOrientation="userPortrait"
-            android:exported="false" />
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
             android:name=".Activitys.MainActivity"
             android:exported="false"

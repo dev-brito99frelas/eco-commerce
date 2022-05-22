@@ -14,9 +14,19 @@
     <string name="app_bt_pedidos">Pedidos</string>
     <string name="app_bt_comprados">Comprados</string>
     <string name="app_bt_carrinho">Carrinho</string>
+    <string name="app_bt_comprar">C\no\nm\np\nr\na\nr</string>
+    <string name="app_bt_disponiveis">D\ni\ns\np\no\nn\ni\nv\n.</string>
+    <string name="app_bt_vender">V\ne\nn\nd\ne\nr</string>
+
 
     <string name="app_bt_popular">Popular</string>
     <string name="app_bt_novo">Novo</string>
     <string name="app_bt_preco_baixo">-Preço</string>
     <string name="app_bt_maisVendido">+Vendido</string>
+    <string name="entrar_com_google">Entrar com google</string>
+    <string name="textview">TextView</string>
+    <string name="button">Button</string>
+    <string name="todo">TODO</string>
+    <string name="bt_float_perfil">Perfil</string>
+
 </resources>

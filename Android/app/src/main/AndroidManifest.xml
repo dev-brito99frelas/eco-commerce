@@ -9,17 +9,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Btwocecocomerce">
         <activity
+            android:name=".Activitys.MainActivity2"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
             android:name=".Activitys.Central"
             android:exported="false"
-            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
             android:name=".Activitys.LoginActivity"
             android:exported="false"
             android:screenOrientation="userPortrait"
-            android:theme="@style/Theme.AppCompat.NoActionBar" />
-        <activity
-            android:name=".Activitys.MainActivity"
-            android:exported="false"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
             android:name=".Activitys.SplashActivity"

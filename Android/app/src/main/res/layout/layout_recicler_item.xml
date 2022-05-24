@@ -2,21 +2,26 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
+    android:layout_width="200dp"
     android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="@drawable/bg_card_cinza"
+    android:gravity="center"
     android:orientation="vertical"
     android:padding="10dp">
 
     <TextView
         android:id="@+id/tv_titulo"
-        android:layout_width="match_parent"
+        android:layout_width="180dp"
         android:layout_height="wrap_content"
-        android:text="@string/textview" />
+        android:text="@string/textview"
+        android:textColor="#1B5E20"
+        android:textSize="11sp" />
 
     <ImageView
         android:id="@+id/imv_planta"
-        android:layout_width="match_parent"
-        android:layout_height="250dp"
+        android:layout_width="140dp"
+        android:layout_height="80dp"
         android:contentDescription="@string/todo"
         android:scaleType="centerCrop"
         tools:ignore="ImageContrastCheck"
@@ -24,27 +29,35 @@
 
     <TextView
         android:id="@+id/tv_descricao"
-        android:layout_width="match_parent"
+        android:layout_width="180dp"
         android:layout_height="wrap_content"
-        android:text="@string/textview" />
+        android:text="@string/textview"
+        android:textColor="#1B5E20"
+        android:textSize="11sp" />
 
     <TextView
         android:id="@+id/tv_descricao2"
-        android:layout_width="match_parent"
+        android:layout_width="180dp"
         android:layout_height="wrap_content"
-        android:text="@string/textview" />
+        android:text="@string/textview"
+        android:textColor="#1B5E20"
+        android:textSize="11sp" />
 
     <TextView
         android:id="@+id/tv_preco"
-        android:layout_width="match_parent"
+        android:layout_width="180dp"
         android:layout_height="wrap_content"
-        android:text="@string/textview" />
+        android:text="@string/textview"
+        android:textColor="#1B5E20" />
 
     <Button
         android:id="@+id/bt_comprar"
-        android:layout_width="match_parent"
+        android:layout_width="180dp"
         android:layout_height="wrap_content"
         android:text="@string/button"
+        android:textAlignment="center"
         android:textColor="#000000"
+        android:textSize="11sp"
         tools:ignore="TextContrastCheck" />
+
 </LinearLayout>

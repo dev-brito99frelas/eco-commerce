@@ -24,7 +24,7 @@ public class Central extends AppCompatActivity {
         this.bt_disponiveis.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(getApplicationContext(), MainActivity.class);
+                Intent i = new Intent(getApplicationContext(), MainActivity2.class);
                 startActivity(i);
             }
         });

@@ -1,5 +1,6 @@
 # eco-commerce  
-Projeto frontend referente a ecommercede pequenas plantas raras, implementado com ajuda do framework Angular, serve para treinamento na utilização do framework para produção de conteúdo do youtube.  
+Projeto frontend referente a ecommercede pequenas plantas raras, implementado com ajuda do framework Angular, versão Andoid desenvolvida em java e serve principalmente de produção de conteúdo do youtube.  
+
 ## Designer meia boca disponivel em:
 [Designer app](https://www.figma.com/file/ZxnXKwOZNtJlK9F2SbzwbP/venda_plantas?node-id=0%3A1)  
 

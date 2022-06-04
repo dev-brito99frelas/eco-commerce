@@ -25,3 +25,6 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Travis  
+[![Build Status](https://app.travis-ci.com/Design-Rat/eco-commerce.svg?branch=main)](https://app.travis-ci.com/Design-Rat/eco-commerce)
